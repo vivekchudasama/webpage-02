@@ -1,0 +1,95 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+:root{
+  --primary-clr: #FFC233;
+  --btn-clr: #FF505F;
+}
+
+body{
+  background-color: rgb(58, 70, 88);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("assets/bg-img.png");
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar{
+  
+  width: 100%;
+  height: 55px;
+  margin-top: 1em;
+
+}
+img[alt="logo"]{
+  width: 10%;
+  float: left;
+  margin-left: 3em;
+}
+
+.list{
+  list-style: none;
+  float: left;
+
+  width: 26.5vw;
+  color: var(--primary-clr);
+  margin: 1em 21em;
+}
+
+.list-item{
+  float: left;
+  margin-left: 2em;
+}
+
+.button-small{
+  float: right;
+  color: white;
+  background-color: var(--btn-clr);
+  border: none;
+  padding: .6em 1.5em;
+  margin-right: 4em;
+  margin-top: .7em;
+
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero{
+
+  width: 70vw;
+  margin: 4em auto;
+}
+
+.hero-heading{
+  color: var(--primary-clr);
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  padding: .5em 0;
+  margin: 0;
+  line-height: .9;
+}
+.button-large{
+  color: white;
+  background-color: var(--btn-clr);
+  border: none;
+  padding: .6em;
+  width: 13em;
+  font-size: 1.3rem;
+  margin-left: 17em;
+}
+.bottom img{
+  position: absolute;
+  right: 60px;
+  bottom: 20px;
+  width: 100px;
+}
+
